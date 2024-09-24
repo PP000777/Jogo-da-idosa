@@ -1,0 +1,35 @@
+body{
+ text-align: center;
+ background-color: antiquewhite;
+}
+
+
+button{
+    border: width 6px;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: white;
+    font-size: 100px;
+    border-left: 0;
+    border-top: 0;
+    vertical-align: top;
+}
+
+.btjogo0, .btjogo1{
+    padding-top: 0;
+    margin-top: 0;
+
+}
+.btJogo2{
+    border-bottom: 0;
+}
+
+#bt02, #bt12, #bt22{
+    border-right: 0;
+}
+
+button:disabled{
+    border-color: black;
+}
+
